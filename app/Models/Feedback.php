@@ -9,5 +9,7 @@ class Feedback extends Model
 {
     use HasFactory;
 
-    public $guarded = [];
+    // public $guarded = [];
+
+    public $fillable = ['email', 'body'];
 }

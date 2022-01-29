@@ -26,7 +26,12 @@ class FeedbacksController extends Controller
             'body' => 'required',
         ]);
 
-        Feedback::create(request()->all());     
+        Feedback::create([
+            'email' => request('email'),           
+            'body' => request('body'),            
+        ]);
+
+        // Feedback::create(request()->all());     
 
         return redirect('/admin/feedback');       
     }

@@ -22,7 +22,7 @@
 			<textarea class="form-control" id="inputMsg" name="body" style="min-height: 150px;"></textarea>
 		</div>		
 
-		<button type="submit" class="btn btn-primary mb-2">Добавить статью</button>
+		<button type="submit" class="btn btn-primary mb-2">Добавить сообщение</button>
 	</form>
 
 @endsection
